@@ -6,7 +6,7 @@
 注意这是python文件，因此，如果您想在本地成功运行代码，您需要安装[roboticstoolbox-python](https://github.com/petercorke/robotics-toolbox-python)
 安装指令：pip install roboticstoolbox-python
 
-# 工具包安装报错怎么办？
+## 工具包安装报错怎么办？
 
 这里，我对安装过程中最常见的报错提供一种解决办法：
         如果您使用的时Windows系统，且在使用pip命令安装机器人工具包的过程中遇到依赖包安装失败的报错，不要急。
