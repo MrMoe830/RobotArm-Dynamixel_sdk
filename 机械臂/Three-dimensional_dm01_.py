@@ -91,6 +91,7 @@ if __name__ == '__main__':
         del snake2
     # end_time3 = time.perf_counter()
 
+    # # 角度检测
     # for i in range(len(solq)):
     #     for j in range(len(solq[-1])):
     #         if solq[i][j] > pi / 2 or solq[i][j] < (-pi / 2):
@@ -99,12 +100,6 @@ if __name__ == '__main__':
     #             break
     # # print(count)
     # print(solq)
-
-    # end_time_all = time.perf_counter()
-    # print('Snake创建用时:', end_time1 - start_time)
-    # print('Snake移至第八节用时:', end_time2 - end_time1)
-    # print('Snake解算轨迹用时:', end_time3 - end_time2)
-    # print('Snake运动总时长:', end_time_all - start_time)
 
     snake.plot(solq, limits=[0, 0.7, -0.5, 0.5, -0.5, 0.5]).hold()
     snake.teach(solq[-1], limits=[0, 0.7, -0.5, 0.5, -0.5, 0.5])
