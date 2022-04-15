@@ -1,10 +1,41 @@
-# _**RobotArm**_
+# _**Robotics-Arm**_
+
+--------------
 
 简单的机械臂知识，希望对您有所帮助
 
 
-注意这是python文件，因此，如果您想在本地成功运行代码，您需要安装[roboticstoolbox-python](https://github.com/petercorke/robotics-toolbox-python)
-安装指令：pip install roboticstoolbox-python
+注意这是python文件，因此，如果您想在本地成功运行代码，您需要python环境并且安装[roboticstoolbox-python](https://github.com/petercorke/robotics-toolbox-python)
+
+--------------
+
+## 安装
+
+--------------
+
+- python环境搭建
+        
+     - 您可以使用conda环境，并用它创建一个单独的robot环境用于您的项目
+     
+     - 您也可以直接使用python通过pip安装，这并不会对roboticstoolbox的使用有丝毫影响
+
+       建议您使用conda环境，这也是目前python编程的主流环境，其具有强大的包管理功能，并且它允许您创建指定python版本的编程环境
+
+- 下载anaconda
+
+     - 您可以点击[此处](https://www.anaconda.com/)，它将带您一起跳转到anaconda官网进行下载
+     
+     - 您也可以点击[这里](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)，通过清华镜像站进行下载安装
+     
+       如果您担心下载速度过慢，那么建议您可以选择通过清华镜像站等国内站点进行下载，这将很大程度上提升您的下载速度。
+
+- 注意事项
+        
+     - 在下载前，请注意您的系统类别。目前，anaconda支持 [Windows / macOS / Linux 版本](https://www.anaconda.com/products/distribution#Downloads)
+
+#### 安装指令：
+
+pip install roboticstoolbox-python
 
 ## 工具包安装报错怎么办？
 
