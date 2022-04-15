@@ -19,7 +19,7 @@
      
      - 您也可以直接使用python通过pip安装，这并不会对roboticstoolbox的使用有丝毫影响
 
-       建议您使用conda环境，这也是目前python编程的主流环境，其具有强大的包管理功能，并且它允许您创建指定python版本的编程环境
+       建议您使用conda环境，这也是目前python编程的主流环境，其具有强大的包管理功能，并且它允许您创建指定python版本的编程环境，即便您指定的是已经停止维护的python2
 
 - 下载anaconda
 
@@ -33,9 +33,47 @@
         
      - 在下载前，请注意您的系统类别。目前，anaconda支持 [Windows / macOS / Linux 版本](https://www.anaconda.com/products/distribution#Downloads)
 
+
+><details><summary>补充说明</summary>
+><p>
+>conda创建新环境：
+>        
+> ```
+>conda create -n <env_name> [python=<version>]
+>```
+>
+>conda安装命令：
+>
+> ```
+>conda install <pkg_name>
+>```
+>
+>激活conda环境：
+>
+> ```
+>conda activate <env_name>
+>```
+>
+>退出当前conda环境：
+>
+> ```
+>conda deactivate
+>```
+>
+>删除conda环境：
+>
+> ```
+>conda remove -n <env_name> --all
+>```
+>
+>您可以进入环境后正常运行各种命令
+</details></p>
+
 #### 安装指令：
 
+```
 pip install roboticstoolbox-python
+```
 
 ## 工具包安装报错怎么办？
 
