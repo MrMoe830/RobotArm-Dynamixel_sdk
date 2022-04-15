@@ -1,5 +1,7 @@
 # _**Robotics-Arm**_
 
+[![License:GPL 3.0](https://img.shields.io/badge/License-GPL3.0-yellow.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
+[![GitHub stars](https://img.shields.io/github/stars/MrMoe830/RobotArm.svg?style=social&label=Star)](https://GitHub.com/MrMoe830/RobotArm/stargazers/)
 
 --------------
 
