@@ -5,7 +5,19 @@
 简单的机械臂知识，希望对您有所帮助
 
 
-注意这是python文件，且代码主要用到机器人工具箱和其相关的依赖库，因此，如果您想在本地成功运行代码，您首先需要搭建好python环境并且安装[roboticstoolbox-python](https://github.com/petercorke/robotics-toolbox-python)
+ 注意这是python文件，且代码主要用到机器人工具箱和其相关的依赖库，因此，如果您想在本地成功运行代码，您首先需要搭建好python环境并且安装[roboticstoolbox-python](https://github.com/petercorke/robotics-toolbox-python)
+
+--------------
+
+## 相关说明
+
+- roboticstoolbox版本： 0.11.0
+
+- python环境： anaconda3
+
+- python虚拟环境： python3.9 
+
+- 此中代码均以在上述配置下通过测试
 
 
 --------------
@@ -20,7 +32,8 @@
      
      - 您也可以直接使用python通过pip安装，这并不会对roboticstoolbox的使用有丝毫影响
 
-       建议您使用conda环境，这也是目前python编程的主流环境，其具有强大的包管理功能，并且它允许您创建指定python版本的编程环境，即便您指定的是已经停止维护的python2
+       建议您使用conda环境，这也是目前python编程的主流环境，其具有强大的包管理功能，并且它允许您创建特定python版本的编程环境
+       ( 即便您指定的是已经停止维护的python2环境 )。相关conda基础命令行使用方法见本栏底部“补充说明”部分。
 
 - 下载anaconda
 
@@ -67,7 +80,8 @@
 >conda remove -n <env_name> --all
 >```
 >
->您可以进入环境后正常运行各种命令
+>您进入环境后可以正常运行各种命令
+>
 </details></p>
 
 #### 安装指令：
@@ -84,7 +98,7 @@ pip install roboticstoolbox-python
 
 
 
-这里，我对安装过程中最常见的报错提供一种解决办法：
+这里，我对安装过程中最常见的由安装依赖项引发的报错提供一种解决办法：
         如果您使用的时Windows系统，且在使用pip命令安装机器人工具包的过程中遇到依赖包安装失败的报错，不要急。
         
         1. 查看本地环境
