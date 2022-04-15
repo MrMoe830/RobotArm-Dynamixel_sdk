@@ -2,7 +2,7 @@
 
 --------------
 
-简单的机械臂知识，希望对您有所帮助
+简单的机械臂知识与python代码的实现，希望对您有所帮助
 
 
  注意这是python文件，且代码主要用到机器人工具箱和其相关的依赖库，因此，如果您想在本地成功运行代码，您首先需要搭建好python环境并且安装[roboticstoolbox-python](https://github.com/petercorke/robotics-toolbox-python)
