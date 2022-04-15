@@ -5,13 +5,14 @@
 简单的机械臂知识，希望对您有所帮助
 
 
-注意这是python文件，因此，如果您想在本地成功运行代码，您需要python环境并且安装[roboticstoolbox-python](https://github.com/petercorke/robotics-toolbox-python)
+注意这是python文件，且代码主要用到机器人工具箱和其相关的依赖库，因此，如果您想在本地成功运行代码，您首先需要搭建好python环境并且安装[roboticstoolbox-python](https://github.com/petercorke/robotics-toolbox-python)
+
 
 --------------
 
 ## 安装
 
---------------
+
 
 - python环境搭建
         
@@ -31,7 +32,7 @@
 
 - 注意事项
         
-     - 在下载前，请注意您的系统类别。目前，anaconda支持 [Windows / macOS / Linux 版本](https://www.anaconda.com/products/distribution#Downloads)
+     - 在下载前，请注意您的系统类别，目前，anaconda支持 [Windows / macOS / Linux 版本](https://www.anaconda.com/products/distribution#Downloads)
 
 
 ><details><summary>补充说明</summary>
@@ -75,7 +76,13 @@
 pip install roboticstoolbox-python
 ```
 
+---------------
+        
+
 ## 工具包安装报错怎么办？
+    
+
+
 
 这里，我对安装过程中最常见的报错提供一种解决办法：
         如果您使用的时Windows系统，且在使用pip命令安装机器人工具包的过程中遇到依赖包安装失败的报错，不要急。
