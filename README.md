@@ -19,6 +19,8 @@
 
 - python环境： anaconda3
 
+- conda版本： 4.12.0
+
 - python虚拟环境： python3.9 
 
 - 此中代码均以在上述配置下通过测试
@@ -54,10 +56,36 @@
 
 ><details><summary>补充说明</summary>
 ><p>
->conda创建新环境：
+>注：下方所有尖括号内容均为您自定义内容，因此您在使用时不要忘记删掉尖括号哦
+>
+>conda查询版本号：
+>
+> ```
+>conda --version 或 conda -V
+>```
+>
+>查看conda已安装的库：
+>
+> ```
+>conda list
+>```
+>
+>conda创建[可选项：python版本指定]新环境：
 >        
 > ```
->conda create -n <env_name> [python=<version>]
+>conda create -n <env_name> [python=<version>] 或 conda create --name <env_name> [python=<version>]
+>```
+>
+>conda创建包含特定工具包的新环境：
+>        
+> ```
+>conda create -n <env_name> <pkg_name1> <pkg_name2>... 或 conda create --name <env_name> <pkg_name1> <pkg_name2>...
+>```
+>
+>conda复制环境：
+>        
+> ```
+>conda create -n <new_env_name> --clone old_env_name
 >```
 >
 >conda安装命令：
@@ -65,6 +93,9 @@
 > ```
 >conda install <pkg_name>
 >```
+>
+>   (注：默认安装最新版本工具包，如需安装指定版本，请将<pkg_name> -> <pkg_name=version>)
+>
 >
 >激活conda环境：
 >
@@ -84,7 +115,33 @@
 >conda remove -n <env_name> --all
 >```
 >
->您进入环境后可以正常运行各种命令
+>更新conda：
+>
+> ```
+>conda update conda
+>```
+>
+>查询conda已有环境：
+>
+> ```
+>conda env list
+>```
+>
+>conda查看工具包详细信息：
+>
+> ```
+>conda info <pkg_name>
+>```
+>
+>conda管理环境内工具包：
+>        
+> ```
+>conda list -n <env_name>    # 查看指定环境的已有工具包
+>conda install -n <env_name> <pkg_name>   # 在指定环境内安装工具包
+>conda remove -n <env_name> <pkg_name>   # 删除指定环境的指定包
+>```
+>
+>这里的所有指令均在Ubuntu系统conda4.12.0版本下通过测试，您激活环境后可以正常运行各种命令
 >
 </details></p>
 
