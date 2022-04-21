@@ -2,8 +2,12 @@
 
 ## 安装包下载地址
 
-> 您可以点击[此处](https://pan.baidu.com/s/17mImmh1VYpqOMJlLhmANpg)下载2022a Matlab使用版本
-> 
+> 您可以直接点击[此处](https://pan.baidu.com/s/17mImmh1VYpqOMJlLhmANpg)下载Matlab 2022a使用版本
+>
+>您也可以选择复制下面链接下载：
+>
+>       https://pan.baidu.com/s/17mImmh1VYpqOMJlLhmANpg
+>
 > 提取码：0830
 
 ---------------------
