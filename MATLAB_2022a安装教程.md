@@ -33,7 +33,7 @@
   
 - 然后点击“下一步”。
 - 点击“浏览”。
-- 在我们已经解压的文件夹下找到并进入到“MATLAB R2022a Crack”文件夹中
+- 在我们已经解压的文件夹下找到并进入到“MATLAB_R2022a”文件夹中
 - 找到文件“license_standalone.lic”，然后点击“打开”。
 - 点击“下一步”。
 - 点击“浏览”
@@ -42,8 +42,8 @@
 - 为了方便我们使用，这里我们勾选“将快捷方式添加到桌面”，然后点击“下一步”。
 - 点击“开始安装”。
 - 安装完成后，点击“关闭”。
-- 打开刚才我们用到的“MATLAB R2022a Crack”文件夹，然后按下面路径依次打开“R2022a\bin\win64\matlab_startup_plugins\lmgrimpl”，
-- 复制“lmgrimpl.dll”文件
+- 打开刚才我们找到的“MATLAB_R2022a”文件夹，然后按所示路径依次打开“R2022a\bin\win64\matlab_startup_plugins\lmgrimpl”，
+- 复制“libmwlmgrimpl.dll”文件
 - 鼠标右击桌面MATLAB快捷方式，点击“打开文件所在的位置”。
 - 按照路径依次打开“R2022a\bin\win64\matlab_startup_plugins\lmgrimpl”，鼠标右击屏幕的空白处，将我们复制的文件粘贴到这里。
 - 点击“替换目标中的文件”。
