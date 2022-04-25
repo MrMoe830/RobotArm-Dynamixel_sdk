@@ -1,6 +1,6 @@
 # _**Robotics-Arm**_
 
-[![License:GPL 3.0](https://img.shields.io/badge/License-GPL3.0-yellow.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
+[![License:GPL 3.0](https://img.shields.io/badge/License-GPL%20v3.0-yellow.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
 [![GitHub contributors](https://img.shields.io/github/contributors/MrMoe830/Mr.Moe-Realsense-camera.svg)](https://github.com/MrMoe830/Mr.Moe-Realsense-camera/graphs/contributors)
 [![ GitHub issues](https://img.shields.io/github/issues/MrMoe830/RobotArm.svg)](https://GitHub.com/MrMoe830/RobotArm/issues/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/MrMoe830/RobotArm/graphs/commit-activity)
