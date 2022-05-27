@@ -1,3 +1,7 @@
+"""
+官方存储库链接： https://github.com/ROBOTIS-GIT/DynamixelSDK
+Dynamixel官网： https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/api_reference/python/python_porthandler/#python
+"""
 import numpy
 from dynamixel_sdk import *
 
