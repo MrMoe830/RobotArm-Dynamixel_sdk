@@ -210,14 +210,19 @@ pip install roboticstoolbox-python
 ----------------
 
 ## 了解更多关于dynamixel
+
+您可以点击[这里](https://github.com/ROBOTIS-GIT/DynamixelSDK)查看关于[Dynamixel_SDK的官方存储库](https://github.com/ROBOTIS-GIT/DynamixelSDK),在该存储库中，您可以获得您需要的绝大多数信息以及代码示例：
+     
+    https://github.com/ROBOTIS-GIT/DynamixelSDK
  
- 如果您想了解更多关于dynamixel产品中各个系列电机的更多知识，您可以点击[这里](https://emanual.robotis.com/)前往[Dynamixel官网](https://emanual.robotis.com/),或者您也可以访问如下链接：
+如果您想了解更多关于dynamixel产品中各个系列电机的更多知识，您可以点击[这里](https://emanual.robotis.com/)前往[Dynamixel官网](https://emanual.robotis.com/),或者您也可以访问如下链接：
  
     https://emanual.robotis.com/
 
 您也可以点击[这里](https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/sample_code/python_read_write_protocol_2_0/#python-protocol-20)查看更多关于Python中的Dynamixel_sdk库的相关API使用案例，但我不确定它们是否已过期：
 
     https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/sample_code/python_read_write_protocol_2_0/#python-protocol-20
+
  
 最后，如果您觉得此中代码和信息对您有帮助，您可以关注我，并点亮您的星星，当然，您还可以选择Fork该存储库至您的仓库列表，无论如何，这些行为都将会方便您在后期发布问题信息并查看本仓库的状态。
 
