@@ -1,4 +1,4 @@
-# _**Robotics-Arm**_
+# _**Part 1、Robotics-Arm**_
 
 [![License:GPL 3.0](https://img.shields.io/badge/License-GPL%20v3.0-yellow.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
 [![GitHub contributors](https://img.shields.io/github/contributors/MrMoe830/Mr.Moe-Realsense-camera.svg)](https://github.com/MrMoe830/Mr.Moe-Realsense-camera/graphs/contributors)
@@ -191,7 +191,41 @@ pip install roboticstoolbox-python
        
        如果您发现或顺利解决了一些额外的报错问题，我也强烈建议您把它拿出来分享，这将会对后人有非常大的帮助，并能很大程度上增加报错本身的意义。
 
-最后，如果您觉得此中代码和信息对您有帮助，您可以关注我，或点亮您的星星，这将方便您在后期发布信息和查看本仓库的状态。
+# _**Part 2、Power Support —— Dynamixel**_
+
+## 相关简介
+ 
+本仓库中提供了一份现成的Robot-Arm实体控制代码，以便您与上述roboticstoolbox机器人工具箱配套使用。
+
+其采用Dynamixel系列电机提供动力支持，通过Python和对应的dynamixel_sdk库进行电机控制并获取电机运动过程中所需运动参数的反馈，有需要者可以直接克隆此库并在您的代码中调用它。
+ 
+><details><summary>注意！！</summary>
+><p>
+>
+>注意：为了让代码对新手依然能保证其比较友好的使用体验，因此，我在代码中已进行了详尽的使用规范说明，并在结尾附有传参的案例，这些都可以帮助您快速学习代码以及它所涉及到的原理知识
+>
+></p>
+></details>
+
+----------------
+
+## 了解更多关于dynamixel
+ 
+ 如果您想了解更多关于dynamixel产品中各个系列电机的更多知识，您可以点击[这里](https://emanual.robotis.com/)前往[Dynamixel官网](https://emanual.robotis.com/),或者您也可以访问如下链接：
+ 
+    https://emanual.robotis.com/
+
+您也可以点击[这里](https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/sample_code/python_read_write_protocol_2_0/#python-protocol-20)查看更多关于Python中的Dynamixel_sdk库的相关API使用案例，但我不确定它们是否已过期：
+
+    https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/sample_code/python_read_write_protocol_2_0/#python-protocol-20
+ 
+最后，如果您觉得此中代码和信息对您有帮助，您可以关注我，并点亮您的星星，当然，您还可以选择Fork该存储库至您的仓库列表，无论如何，这些行为都将会方便您在后期发布问题信息并查看本仓库的状态。
+
+><details><summary>补充说明</summary>
+><p>
+>通过复刻仓库，您可以自由地尝试更改而不会影响原始项目
+></details>
+></p>
  
 -------------
  
